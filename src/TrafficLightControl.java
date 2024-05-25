@@ -11,6 +11,7 @@ public class TrafficLightControl {
 
     // 返回当前信号灯状态
     public String getCurrentLight(String direction, String turnDirection) {
+        //红绿灯情况
         switch (currentState) {
             case S_N_STRAIGHT:
                 if (direction.equals("南向") || direction.equals("北向")) {
