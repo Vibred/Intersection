@@ -9,7 +9,7 @@ public class Car {
 
     boolean isTurningRight() {
         return getTurnDirection().equals("右转");
-    }
+    }  // 暂时没有使用的方法
 
     String getTurnDirection() {
         switch (fromDirection) {

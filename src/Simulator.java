@@ -17,7 +17,7 @@ public class Simulator {
 
     // 随机生成来车并放入车道队列
     public void generateCars() {
-        int carCount = random.nextInt(10) + 1;
+        int carCount = random.nextInt(25) + 1; // 修改生成随机数的范围为1到25辆车
         for (int i = 0; i < carCount; i++) {
             String from = DIRECTIONS[random.nextInt(4)];
             String to;
